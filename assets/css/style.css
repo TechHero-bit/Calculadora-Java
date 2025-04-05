@@ -43,12 +43,17 @@ body {
   border: none;
   background: #dfdfdf;
   cursor: pointer;
+  transition: background .2s ease-in-out;
 }
 
-.btn:not(.btn-eq):hover{
-background: #9b9292;
+.btn:hover{
+  background: #9b9292;
 }
 
 .btn-eq{
-  background: #0f1897;
+  background: var(--primary-color);
+}
+
+.btn-eq:hover {
+  background: var(--primary-color-darker);
 }
