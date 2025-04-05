@@ -45,7 +45,7 @@ body {
   cursor: pointer;
 }
 
-.btn:hover{
+.btn:not(.btn-eq):hover{
 background: #9b9292;
 }
 
