@@ -48,3 +48,7 @@ body {
 .btn:hover{
 background: #9b9292;
 }
+
+.btn-eq{
+  background: #0f1897;
+}
